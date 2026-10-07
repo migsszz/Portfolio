@@ -1,13 +1,13 @@
 # Portfolio
 
-Personal portfolio site for Miguel Antonio Baliog — plain HTML/CSS/JS, no build step.
+Personal portfolio site for Miguel Antonio Baliog: plain HTML/CSS/JS, no build step.
 
 ## Structure
 
-- `index.html` — all page content and sections (hero, about, experience, projects, skills, contact)
-- `css/style.css` — styling (dark theme, single stylesheet)
-- `js/main.js` — mobile nav toggle, scroll-reveal animation, footer year
-- `assets/` — resume PDF and profile image
+- `index.html`: all page content and sections (hero, about, experience, projects, skills, contact)
+- `css/style.css`: styling (dark theme, single stylesheet)
+- `js/main.js`: mobile nav toggle, scroll-reveal animation, footer year
+- `assets/`: resume PDF and profile image
 
 ## Local preview
 
