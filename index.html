@@ -191,17 +191,19 @@
 
         <article class="card reveal">
           <div class="card__top">
-            <span class="card__tag">Full-stack · E-commerce</span>
+            <span class="card__tag">Full-stack · AI Agent</span>
           </div>
           <h3>Haven</h3>
           <p>
             An online store with catalog search, a persistent cart, and order tracking, plus an admin area for
-            products and fulfillment. Checkout runs as a single transaction with row locking so two shoppers
-            can't buy the last unit, and the server owns all pricing. Packaged with Docker and deployed to AWS
-            (ECR + EC2) through GitHub Actions.
+            products and fulfillment. Includes "Ask Haven", an agentic shopping assistant built on OpenAI
+            function calling: a tool-calling loop that finds and compares products, reads and edits the cart, and
+            checks on orders &mdash; running as the signed-in shopper, with cancellations only proposed for the
+            shopper to confirm. Checkout is a single locked transaction, and the server owns all pricing.
+            Packaged with Docker and deployed to AWS (ECR + EC2) through GitHub Actions.
           </p>
           <div class="card__stack">
-            <span>Angular</span><span>Flask</span><span>PostgreSQL</span><span>Docker</span><span>AWS</span><span>GitHub Actions</span>
+            <span>OpenAI</span><span>Agentic AI</span><span>Tool Calling</span><span>Angular</span><span>Flask</span><span>PostgreSQL</span><span>Docker</span><span>AWS</span><span>GitHub Actions</span>
           </div>
           <div class="card__links">
             <a href="https://github.com/migsszz/Haven" target="_blank" rel="noopener">View on GitHub →</a>
@@ -307,7 +309,7 @@
           <h3>Machine Learning</h3>
           <div class="tags">
             <span>YOLOv8</span><span>CNN</span><span>ResNet</span><span>Computer Vision</span>
-            <span>Pandas</span><span>Jupyter</span>
+            <span>Pandas</span><span>Jupyter</span><span>OpenAI API</span><span>Agentic AI</span>
           </div>
         </div>
         <div class="skills__group reveal">
